@@ -69,5 +69,18 @@ namespace MySQL_conector
         MessageBox.Show("Error");
       }
     }
+
+    private void Form1_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    private void Form1_KeyDown(object sender, KeyEventArgs e)
+    {
+      if (e.KeyValue == (char)Keys.Enter)
+      {
+        button1_Click(button1, null);
+      }
+    }
   }
 }
