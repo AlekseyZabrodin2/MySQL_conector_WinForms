@@ -123,6 +123,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="README.md" />
+    <None Include="readme2.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
