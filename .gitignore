@@ -1,4 +1,7 @@
+.vs/
 .db
 .log
 target
 bin
+.dll
+packages/
