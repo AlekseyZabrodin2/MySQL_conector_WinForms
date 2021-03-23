@@ -1,0 +1,23 @@
+﻿<Window x:Class="Wpf_connector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_connector"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="425.081" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="100,320,0,0" VerticalAlignment="Top" Width="120" Height="50" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="343,320,0,0" VerticalAlignment="Top" Width="120" Height="50"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="580,320,0,0" VerticalAlignment="Top" Width="120" Height="50"/>
+        <RichTextBox HorizontalAlignment="Left" Height="66" Margin="24,226,0,0" VerticalAlignment="Top" Width="742">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <DataGrid HorizontalAlignment="Left" Height="175" Margin="24,23,0,0" VerticalAlignment="Top" Width="742" RenderTransformOrigin="0.486,0.496"/>
+
+    </Grid>
+</Window>
