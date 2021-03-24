@@ -38,3 +38,4 @@ D:\Develop\MySQL_conector\Wpf_connector\bin\Debug\System.Memory.xml
 D:\Develop\MySQL_conector\Wpf_connector\bin\Debug\System.Numerics.Vectors.xml
 D:\Develop\MySQL_conector\Wpf_connector\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Develop\MySQL_conector\Wpf_connector\obj\Debug\Wpf_connector.csproj.CopyComplete
+D:\Develop\MySQL_conector\Wpf_connector\obj\Debug\GeneratedInternalTypeHelper.g.cs

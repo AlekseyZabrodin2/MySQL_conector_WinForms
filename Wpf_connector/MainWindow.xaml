@@ -5,19 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_connector"
         mc:Ignorable="d"
-        Title="MainWindow" Height="425.081" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="100,320,0,0" VerticalAlignment="Top" Width="120" Height="50" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="343,320,0,0" VerticalAlignment="Top" Width="120" Height="50"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="580,320,0,0" VerticalAlignment="Top" Width="120" Height="50"/>
-        <RichTextBox HorizontalAlignment="Left" Height="66" Margin="24,226,0,0" VerticalAlignment="Top" Width="742">
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text="RichTextBox"/>
-                </Paragraph>
-            </FlowDocument>
-        </RichTextBox>
-        <DataGrid HorizontalAlignment="Left" Height="175" Margin="24,23,0,0" VerticalAlignment="Top" Width="742" RenderTransformOrigin="0.486,0.496"/>
+        Title="AutoTest" Height="425.081" Width="800">
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="0" x:Name="dataGrid" Margin="5"/>
+        <TextBox Grid.Row="1" MinHeight="50" Margin="5"/>
+        <Grid ShowGridLines="False" Grid.Row="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="DB Connect" MinHeight="50" Margin="20,5,20, 5"/>
+            <Button Grid.Column="1" Content="Request" MinHeight="50" Margin="20,5,20, 5"/>
+            <Button Grid.Column="2" Content="Cleaner" MinHeight="50" Margin="20,5,20, 5"/>
+
+        </Grid>
+
+
 
     </Grid>
+
 </Window>

@@ -12,29 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System;
-using System.Windows;
-using System.Collections.Generic;
 using System.ComponentModel;
 using SD = System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
 
 namespace Wpf_connector
 {
-  /// <summary>
-  /// Interaction logic for MainWindow.xaml
-  /// </summary>
-  public partial class MainWindow : Window
-  {
-    public MainWindow()
+    public partial class MainWindow : Window
     {
-      InitializeComponent();
-      DataContext = new MainViewModel();
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
     }
-  }
 }
