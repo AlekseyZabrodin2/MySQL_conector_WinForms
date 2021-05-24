@@ -13,6 +13,6 @@ namespace Wpf_connector
 {
   public class MainViewModel
   {
-      
+
   }
 }

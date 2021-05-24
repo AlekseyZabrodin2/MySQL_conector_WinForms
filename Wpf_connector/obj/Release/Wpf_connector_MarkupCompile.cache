@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Develop\MySQL_conector_WinForms\Wpf_connector\obj\Debug\
+D:\Develop\MySQL_conector_WinForms\Wpf_connector\obj\Release\
 Wpf_connector
 none
 false
-DEBUG;TRACE
+TRACE
 D:\Develop\MySQL_conector_WinForms\Wpf_connector\App.xaml
 11151548125
 
 6747604195
-33-1466478845
+26-697816741
 MainWindow.xaml;
 
-False
+True
 
